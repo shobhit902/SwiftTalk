@@ -1,0 +1,31 @@
+{
+  "name": "swifttalk",
+  "version": "1.0.0",
+  "description": "A real time chat app",
+  "homepage": "https://github.com/shobhit902/SwiftTalk#readme",
+  "bugs": {
+    "url": "https://github.com/shobhit902/SwiftTalk/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shobhit902/SwiftTalk.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./Backend/index.js "
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "mongoose": "^8.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
